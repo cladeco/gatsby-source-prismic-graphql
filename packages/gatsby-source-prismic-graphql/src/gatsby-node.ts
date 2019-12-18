@@ -151,6 +151,7 @@ const getDocumentsQuery = ({
               id
               lang
               uid
+              tags
               type
               alternateLanguages {
                 id
