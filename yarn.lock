@@ -872,6 +872,13 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
+"@babel/runtime@^7.7.6":
+  version "7.7.6"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.7.6.tgz#d18c511121aff1b4f2cd1d452f1bac9601dd830f"
+  integrity sha512-BWAJxpNVa0QlE5gZdWjSxXtemZyZ9RmrmVozxt3NUXeZhVIJ5ANyqmMc0JDrivBZyxUuQvFxlvH4OWWOogGfUw==
+  dependencies:
+    regenerator-runtime "^0.13.2"
+
 "@babel/template@^7.1.0", "@babel/template@^7.2.2", "@babel/template@^7.4.4", "@babel/template@^7.6.0":
   version "7.6.0"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.6.0.tgz#7f0159c7f5012230dad64cca42ec9bdb5c9536e6"
@@ -6983,6 +6990,19 @@ gatsby-source-graphql-universal@^3.1.6:
     lodash.get "^4.4.2"
     traverse "^0.6.6"
 
+gatsby-source-graphql@^2.0.15:
+  version "2.1.28"
+  resolved "https://registry.yarnpkg.com/gatsby-source-graphql/-/gatsby-source-graphql-2.1.28.tgz#723063d36776f4f43692cc8860d72abfcd421f4a"
+  integrity sha512-5AkUzLNl2u9xQ3cpevuc5ZrV35QVHENK9tUMV27B0LGxk4tJvxtHLCsMsvpBMUtOv/kuyvlA8zrJgdH++eN/Ig==
+  dependencies:
+    "@babel/runtime" "^7.7.6"
+    apollo-link "1.2.13"
+    apollo-link-http "^1.5.16"
+    graphql-tools "^3.1.1"
+    invariant "^2.2.4"
+    node-fetch "^1.7.3"
+    uuid "^3.3.3"
+
 gatsby-source-graphql@^2.0.8, gatsby-source-graphql@^2.1.15:
   version "2.1.15"
   resolved "https://registry.yarnpkg.com/gatsby-source-graphql/-/gatsby-source-graphql-2.1.15.tgz#3af9e6f31d90f185b00b4f273be36eb31be286e5"
@@ -6995,6 +7015,22 @@ gatsby-source-graphql@^2.0.8, gatsby-source-graphql@^2.1.15:
     invariant "^2.2.4"
     node-fetch "^1.7.3"
     uuid "^3.3.3"
+
+gatsby-source-prismic-graphql@^3.4.0-beta.2:
+  version "3.4.0-beta.2"
+  resolved "https://registry.yarnpkg.com/gatsby-source-prismic-graphql/-/gatsby-source-prismic-graphql-3.4.0-beta.2.tgz#b358a3b1c29ed2efda3bb404b538bc551d320e70"
+  integrity sha512-/zDqgPea2uSKdbBIWYi8Ngypz06zwBdeVlHRCmUnnyfBvV4hyxYTO7dyjTet9BBcb2jaaV7ZxeKew1Y6sc90+w==
+  dependencies:
+    apollo-boost "^0.3.1"
+    apollo-link-context "^1.0.17"
+    gatsby-image "^2.2.4"
+    gatsby-source-filesystem "^2.1.2"
+    gatsby-source-graphql "^2.0.15"
+    gatsby-source-graphql-universal "^3.1.6"
+    path-to-regexp "^3.0.0"
+    prismic-javascript "^2.1.1"
+    traverse "^0.6.6"
+    url-pattern "^1.0.3"
 
 gatsby-telemetry@^1.1.25:
   version "1.1.25"
